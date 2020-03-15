@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-int main(){
-	puts("Hello from git-managed world!");
-	return 0;
+int main(int argc, char** argv){
+    puts("Hello from git-managed world!");
+    puts("I can handle args");
+    return 0;
 }
+
